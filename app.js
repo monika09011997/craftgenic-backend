@@ -48,7 +48,4 @@ app.get('/', (req, res) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => {
-  console.log(`Server is Successfully Running, and App is listening on port ${PORT}`);
-});
+module.exports = app;
